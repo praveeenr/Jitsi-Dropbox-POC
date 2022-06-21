@@ -3,9 +3,11 @@ const startBtn = document.getElementById("start")
 const stopBtn = document.getElementById("stop")
 let api;
 
+// IMPORTANT NOTE: For Dropbox recording to work use jitsi Business/Enterprise account. Dropbox wont work on Dev account
 const ROOM_NAME = ""
-const DROPBOX_APP_KEY = ""
 const JWT_TOKEN = ""
+
+const DROPBOX_APP_KEY = ""
 const DROPBOX_TOKEN = ""
 
 startBtn.addEventListener('click', () => {
